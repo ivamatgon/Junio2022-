@@ -44,4 +44,4 @@ jobs:
       - name: Cheks
         run: | 
           chmod +x gradlew        
-          ./gradlew check
+          ./gradlew test
