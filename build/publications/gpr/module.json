@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "us.mitfs.samples",
+    "module": "bag",
+    "version": "0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.kohsuke",
+          "module": "github-api",
+          "version": {
+            "requires": "1.301"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bag-0.0.jar",
+          "url": "bag-0.0.jar",
+          "size": 261,
+          "sha512": "6ea3c983a1e51368ec43c56ab91a40ecd124f9e8fcd900699e4257b1b5d7ada43e669f2a5a6ec2d7c6a7580367d91caccd19f13830a19d88d3fb211b8d5b44a2",
+          "sha256": "c9c4905d0f8287c913d8f595dbacf8d87cc558d59d496c100e34d574b0bf0714",
+          "sha1": "41daf0b1073d78bcfc95756afb85af3a833a9a65",
+          "md5": "b758416728aa47a3e71b75937a87216a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.poi",
+          "module": "poi",
+          "version": {
+            "requires": "5.2.1"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1.1-jre"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.kohsuke",
+          "module": "github-api",
+          "version": {
+            "requires": "1.301"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bag-0.0.jar",
+          "url": "bag-0.0.jar",
+          "size": 261,
+          "sha512": "6ea3c983a1e51368ec43c56ab91a40ecd124f9e8fcd900699e4257b1b5d7ada43e669f2a5a6ec2d7c6a7580367d91caccd19f13830a19d88d3fb211b8d5b44a2",
+          "sha256": "c9c4905d0f8287c913d8f595dbacf8d87cc558d59d496c100e34d574b0bf0714",
+          "sha1": "41daf0b1073d78bcfc95756afb85af3a833a9a65",
+          "md5": "b758416728aa47a3e71b75937a87216a"
+        }
+      ]
+    }
+  ]
+}
